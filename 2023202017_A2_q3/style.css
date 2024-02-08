@@ -1,0 +1,110 @@
+h2,label,h6{
+    color:white;
+}
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #212529;
+  background-image: url("/Users/suyash9698/Desktop/f.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 100vh; /* Ensure the body covers at least the full viewport height */
+}
+
+p{
+    margin-top:10px;
+    color: lightblue;
+    cursor:pointer;
+    margin-bottom:-1px;
+}
+
+hr{
+    border:2px solid whitesmoke;
+    color:white;
+}
+.link-custom-bg {
+    background-color: #198754; 
+    color: #fff; 
+    padding: 5px 5px; 
+    transition: background-color 0.3s; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top:50px;
+  }
+  
+  .link-custom-bg:hover {
+    background-color: #388e3c; 
+  }
+  .rounded-20 {
+    border-radius: 15px;
+    
+  }
+
+  .user-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #71787f; 
+    color: #fff;
+    width: 90px; 
+    height: 90px;
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+    font-size: 24px; 
+  }
+  
+   h1{
+    color: white;
+   }
+   h4{
+    color:white;
+   }
+
+   .undo-icon{
+      font-size: 11px;
+   }
+
+   .custom-dropdown {
+    width: 100%;
+    white-space: normal; /* Allow text to wrap within options */
+  }
+  .custom-select{
+    width: 100%;
+    white-space: normal;
+  }
+  /* CSS */
+.tooltip-text {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 20px; /* Adjust the distance from the icon */
+  left: 10px; /* Adjust the distance from the icon */
+}
+
+#clear-icon:hover + #clear-tooltip {
+  display: block;
+}
+.footer{
+  color:white;
+  border-radius: 50%;
+}
+.hovered {
+  background-color: red; /* Change to your desired hover color */
+}
+
+input:focus{
+  color:#495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,255);
+}
+
+.user-profile{
+  margin-top:30px;
+}
