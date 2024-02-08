@@ -1,45 +1,69 @@
-# LiteChatGPT
-chatgpt using mern stack
-# Features
-Login Page
+# LiteChatGPT: A MERN Stack Chat Application
 
-The Login Page serves as the entry point for users.
-It includes email and password inputs for authentication.
-User authentication is connected to MongoDB, where each email ID should be unique.
-Users can choose their role (User or Admin) during registration.
-The system checks if the provided email already exists in the database before allowing login.
-Successful login redirects users to the Chat Area.
-Register Page
-The Register Page allows users to sign up.
-It collects user information, including:
-Name
-Role (User or Admin)
-Email
-Password
-Users must select their role during registration.
-Email addresses are validated to be unique against existing entries in the database.
-Similar to the Login Page, registration data is stored in MongoDB.
-After successful registration, users can log in.
-Chat Area
-The Chat Area is where users interact with the chatbot.
-Key features in this area include:
-Chat History: All chat interactions are saved in the database for future reference.
-Logout Option: Users can log out.
-Clear Conversation: Users can erase the entire chat history.
-Dropdown Menu for Questions: Questions are fetched from the database and displayed in a dropdown menu.
-Question-Answer Interaction: Selecting a question from the dropdown menu displays the chatbot's answer.
-History Button: Users can access previously asked questions and answers in a new page or popup window.
-Admin Page
-The Admin Page is exclusively for administrators.
-Admins have the following capabilities:
-Manage Questions: Admins can add new questions to the database, edit existing questions, or update their answers.
-Profile Page: In the navigation bar, admins can change their user details, such as name and email.
-Usage
-To use Chat GPT Lite:
+## Features
 
-Register for an account if you are a new user.
-Log in with your credentials.
-Access the chat area to interact with the chatbot.
-Admins can access the admin page to manage questions and update their profiles.
+### 1. Login Page
+- Serve as the entry point for users.
+- Authenticate users with email and password inputs.
+- Unique email IDs stored in MongoDB.
+- Role selection (User or Admin) during registration.
+- Email validation to ensure uniqueness.
+- Redirect to Chat Area upon successful login.
 
+### 2. Register Page
+- Sign up for new users.
+- Collect user information: Name, Role, Email, Password.
+- Role selection required during registration.
+- Unique email validation against existing entries.
+- Data stored in MongoDB.
+- Access granted to login upon successful registration.
+
+### 3. Chat Area
+- Interact with the chatbot.
+- Save chat history in the database.
+- Logout option available.
+- Clear entire chat history.
+- Dropdown menu for accessing questions.
+- Question-answer interaction with the chatbot.
+- Access previous questions and answers.
+
+### 4. Admin Page
+- Exclusive access for administrators.
+
+## How to Run
+
+To run LiteChatGPT on your local machine using Visual Studio Code (VS Code), follow these steps:
+
+1. **Clone the Repository**: 
+   - Open VS Code.
+   - Go to the View menu and select Terminal to open the integrated terminal.
+   - Clone the LiteChatGPT repository using the following command:
+     ```
+     git clone https://github.com/your-username/LiteChatGPT.git
+     ```
+   - Navigate to the project directory:
+     ```
+     cd LiteChatGPT
+     ```
+
+2. **Install Dependencies**:
+   - Run the following command to install the necessary dependencies:
+     ```
+     npm install
+     ```
+
+3. **Start the Application**:
+   - After installing dependencies, start the application using the following command:
+     ```
+     npm start
+     ```
+
+4. **Access the Application**:
+   - Once the server is running, open a web browser and navigate to http://localhost:3000 to access the LiteChatGPT application.
+
+5. **Usage**:
+   - Register for an account if you are a new user.
+   - Log in with your credentials.
+   - Access the chat area to interact with the chatbot.
+   - Admins can access the admin page to manage questions and update their profiles.
 
